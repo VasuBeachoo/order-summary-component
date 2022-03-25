@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.dark-blue-text {
+  color: hsl(224, 23%, 55%);
+}
+
+.component-container {
+  min-height: 100vh;
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 98%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.component {
+  width: 350px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 25px;
+  border-radius: 16px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.18), 0 1px 1px rgba(0, 0, 0, 0.24);
+}
+
+.component-img {
+  width: 350px;
+  border-radius: 15px 15px 0 0;
+}
+
+.component-title {
+  font-weight: 900;
+  font-size: 22px;
+  margin-top: 23px;
+  margin-bottom: 17px;
+}
+
+.component-description {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 0 45px 0;
+}
+
+.plan-container {
+  width: 75%;
+  background-color: hsl(225, 100%, 98%);
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.music-icon {
+  width: 45px;
+  margin-right: 20px;
+}
+
+.plan-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.plan-info p {
+  margin: 0.9px 0 0.9px;
+}
+
+.plan-name {
+  font-weight: 700;
+}
+
+.plan-price {
+  font-size: 14.5px;
+}
+
+.change-btn {
+  margin-left: auto;
+  color: hsl(245, 75%, 52%);
+  text-decoration: underline;
+  font-size: 13.5px;
+  font-weight: 700;
+}
+
+.change-btn:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: hsl(266, 71%, 58%);
+}
+
+.proceed-btn {
+  margin: 22px 0 18px;
+  width: 290px;
+  height: 45px;
+  border-radius: 11px;
+  border: none;
+  background-color: hsl(245, 75%, 52%);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 5px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.18), 0 3.5px 6px rgba(0, 0, 0, 0.24);
+}
+
+.proceed-btn:hover {
+  cursor: pointer;
+  background-color: hsl(266, 71%, 58%);
+  transition: 0.2s;
+}
+
+.cancel-btn {
+  margin: 0 0 24px;
+  font-size: 13px;
+  font-weight: 900;
+  color: hsl(224, 23%, 55%);
+  transition: 0.2s;
+}
+
+.cancel-btn:hover {
+  cursor: pointer;
+  color: #000000;
+}
